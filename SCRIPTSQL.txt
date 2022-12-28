@@ -1,0 +1,16 @@
+create table alunos (
+  id int auto_increment primary key,
+  nome varchar(255),
+  login varchar(255),
+  email varchar(255),
+  senha varchar(255),
+  curso varchar(255)
+);
+
+
+INSERT INTO alunos (nome, login, email, senha, curso) VALUES ('Arthur', 'art', 'art@hotmail.com','1234','Fisica');
+
+
+
+INICIANDO COM SENHA SEM CRIPTOGRAFIA.
+CRIPTOGRAFIA APLICADA APOS A EDIÇÃO DE SENHA OU CRIACAO DE NOVO USUARIO.
